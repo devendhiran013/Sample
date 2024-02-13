@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    padding: 0px 35px;
+    transform: translate(0px, 20px);
+
+}
+
+body {
+    background-color: rgba(215, 187, 120, 0.959);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+
+}
+
+.main {
+    background-color: white;
+    border-radius: 40px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    transform: translate(10px, 40px);
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+
+
+
+a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+a:active {
+    color: rgb(5, 5, 5);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#cont {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    transform: translate(0px, 50px);
+}
+
+#navi2 {
+    transform: translate(180px, -41px);
+    display: inline-block;
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: rgb(81, 86, 205);
+}
+
+#box {
+    display: inline-block;
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: rgb(81, 86, 205);
+}
+
+input {
+    line-height: 3em;
+    border-radius: 5px;
+    transform: translate(0px, 20px);
+}
+
+#cont3 {
+    transform: translate(0px, -50px);
+}
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.img1 {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 50px;
+}
+
+.query {
+    transform: translate(10px, -10px);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0px, 40px);
+}
